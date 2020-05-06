@@ -1,0 +1,450 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-width: 480px;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    -ms-overflow-style: none;
+    margin-bottom: -15px;
+}
+
+.pic89 {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    width: 15%;
+    float: left;
+}
+
+.modal-header {
+    height: 10px;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+
+.heading-item {
+    color: #1a1e53;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+.adress {
+    text-align: right;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.pic-house {
+    width: 50%;
+    position: relative;
+    left: 0px;
+    float: left;
+}
+
+.text {
+    font-weight: 600;
+}
+
+.pics {
+    position: relative;
+}
+
+.pics button {
+    cursor: pointer;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.pic1 {
+    position: absolute;
+    left: 10px;
+}
+
+.pic2 {
+    float: left;
+}
+
+
+/* .pic1:hover,
+.pic2:hover,
+.pic3:hover {
+    width: 25%;
+} */
+
+.pic3 {
+    width: 24%;
+}
+
+.data1,
+.data2,
+.data3 {
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+button,
+button:active {
+    outline: 0;
+    border: 0;
+    background: none;
+}
+
+.page2 {
+    display: flex;
+}
+
+.left-part {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.left-text {
+    text-align: center;
+    font-weight: 600;
+}
+
+.left-text span {
+    color: #71574E
+}
+
+.left-img {
+    margin-top: 15%;
+}
+
+.right-part {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
+}
+
+.b1,
+.b2,
+.b3,
+.b4 {
+    width: 50%;
+}
+
+.heading-item span {
+    color: black;
+    font-weight: 500;
+    transform: rotate(-45deg);
+}
+
+.page4 {
+    display: flex;
+    font-weight: 600;
+}
+
+.page4-part1 {
+    width: 30%;
+}
+
+.page4 span {
+    color: #1b244d;
+}
+
+.page4-part2 {
+    width: 70%;
+}
+
+.page4-part3 {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.page4-part3-img {
+    float: left;
+    width: 33%;
+}
+
+.page4-part3-text {
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+.page4-part3-text1 {
+    font-size: 50px;
+}
+
+.page3-top,
+.page3-bottom {
+    display: flex;
+}
+
+.page3-bottom {
+    position: relative;
+    margin-top: -9%;
+}
+
+.page3-part1 {
+    margin-top: 2%;
+    width: 20%;
+}
+
+.page3-part2 {
+    width: 50%;
+    margin-top: 2%;
+    padding-left: 3%;
+}
+
+.page3-part2 h1 {
+    white-space: nowrap;
+}
+
+.page3-part2 p {
+    position: relative;
+    left: 10%;
+    width: 120%;
+}
+
+.page3-part3 {
+    width: 50%;
+    margin-top: 1%;
+}
+
+.page3-part4 {
+    width: 50%;
+    position: relative;
+}
+
+.page3-part5 h1 {
+    position: relative;
+    right: 22%;
+    white-space: nowrap;
+}
+
+.page3-part5 p {
+    text-align: right;
+    position: relative;
+    right: 10%;
+}
+
+.pic892 {
+    position: relative;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+    left: 3%;
+    max-width: 15%;
+    float: left;
+    height: auto;
+    z-index: 5;
+}
+
+.pic-house2 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
+    top: 0px;
+    left: 0%;
+    max-width: 50%;
+    float: left;
+    height: auto;
+    z-index: 6;
+}
+
+.text {
+    font-weight: 600;
+}
+
+.pics2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pics2 button {
+    cursor: pointer;
+}
+
+.pic12,
+.pic22,
+.pic32 {
+    width: 80%;
+    font-weight: 600;
+    margin: 0 2%;
+}
+
+.pic12:hover,
+.pic22:hover,
+.pic32:hover {
+    width: 81%;
+}
+
+.data1,
+.data2,
+.data3 {
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+html {
+    min-width: 400px;
+}
+
+@media (max-width: 991px) {
+    .pic89 {
+        position: relative;
+        top: 0px;
+        display: none;
+    }
+    .pics {
+        display: flex;
+        justify-content: center;
+    }
+    .pic1,
+    .pic2,
+    .pic3 {
+        position: static;
+        width: 33%;
+    }
+    /* .pic1:hover,
+    .pic2:hover,
+    .pic3:hover {
+        width: 33%;
+    } */
+    .page4 {
+        display: block;
+    }
+    .left-text {
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .page4-part1,
+    .page4-part2,
+    .page3-part1,
+    .page3-part2,
+    .page3-part2 h1 {
+        width: 100%;
+        margin: 15px 0px;
+        text-align: center;
+    }
+    .page3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .page3-part2 p,
+    .page3-part2 h1 {
+        width: 100%;
+        position: static;
+        margin-bottom: 10px;
+    }
+    .page3-part1 {
+        /* display: none; */
+    }
+    .page3-part3 {
+        display: none;
+    }
+    .page3-bottom,
+    .page3-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .page3-part4,
+    .page3-part5 p,
+    .page3-part5 h1 {
+        position: static;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .page3-part4 {
+        margin: 30px auto 0 auto;
+        width: 80%;
+    }
+    .page4-part3-img {
+        width: 50%;
+    }
+    .page4-part3-text img {
+        transform: rotate(90deg);
+        position: relative;
+        top: 120px;
+    }
+    .page4-part3-text1 {
+        position: relative;
+        top: 30px;
+    }
+    .page4-part3 p {
+        position: relative;
+        top: 40px;
+    }
+    .page4-part3-text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .page2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .right-part {
+        display: flex;
+        flex-direction: column;
+    }
+    .b1,
+    .b2,
+    .b3,
+    .b4 {
+        width: 100%;
+    }
+    .b1 img,
+    .b2 img,
+    .b3 img,
+    .b4 img {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .left-part {
+        width: 100%;
+    }
+    .left-part img {
+        width: 70%;
+        margin: 10px auto;
+    }
+    .right-part {
+        width: 100%;
+    }
+}
